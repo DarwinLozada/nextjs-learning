@@ -59,6 +59,7 @@ const Layout = ({ children, home }) => {
           </>
         )}
       </header>
+      <div className={styles.container}>{children}</div>
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
@@ -66,7 +67,6 @@ const Layout = ({ children, home }) => {
           </Link>
         </div>
       )}
-      <div className={styles.container}>{children}</div>
     </div>
   );
 };
