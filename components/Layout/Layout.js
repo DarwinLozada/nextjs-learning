@@ -8,7 +8,6 @@ const name = "Darwin Lozada";
 export const siteTitle = "Next.js Sample Website";
 
 const Layout = ({ children, home }) => {
-  console.log(home);
   return (
     <div className={styles.container}>
       <Head>
